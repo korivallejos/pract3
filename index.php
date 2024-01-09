@@ -36,12 +36,12 @@
 
          while ($fila = mysqli_fetch_object($resultado)) {
          echo "<tr><td> " .$fila->nombre . 
-         "</td><td>" . $fila->apellido .
-         "</td><td>" . $fila->direccion .
-         "</td><td>" . $fila->telefijo .
-         "</td><td>" . $fila->telemovil .
-         "</td><td>" . $fila->email .
-         "</td><td>" . $fila->distrito .
+         "</td><td>" . $fila->A.apellido .
+         "</td><td>" . $fila->A.direccion .
+         "</td><td>" . $fila->A.telefijo .
+         "</td><td>" . $fila->A.telemovil .
+         "</td><td>" . $fila->A.email .
+         "</td><td>" . $fila->D.distrito .
          "</td></tr>";
        }
        ?>
