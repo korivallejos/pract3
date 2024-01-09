@@ -35,7 +35,7 @@
         $resultado = mysqli_query($conexion, $cadenaSQL);
 
          while ($fila = mysqli_fetch_object($resultado)) {
-         echo "<tr><td> " .$fila->nombre . 
+         echo "<tr><td> " .$fila->A.nombre . 
          "</td><td>" . $fila->A.apellido .
          "</td><td>" . $fila->A.direccion .
          "</td><td>" . $fila->A.telefijo .
